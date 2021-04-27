@@ -20,7 +20,7 @@ import { extendGraphqlSchema } from './mutations';
 function check(name: string) {}
 
 const databaseURL =
-  process.env.DATABASE_URL || 'mongodb://localhost/keystone-sick-fits-tutorial';
+  process.env.DATABASE_URL || 'mongodb+srv://user1:Pj6hvxfg6kia4QNG@reactappcluster.wmlrn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 const sessionConfig = {
   maxAge: 60 * 60 * 24 * 360, // How long they stay signed in?
